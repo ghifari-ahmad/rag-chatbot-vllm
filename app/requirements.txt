@@ -1,0 +1,16 @@
+chainlit
+langchain
+langchain-text-splitters
+langchain-core
+langchain-community
+langchain-openai
+langchain-qdrant
+langchain-huggingface
+gptcache
+redis
+psycopg2-binary
+sentence-transformers
+qdrant-client
+torch --index-url https://download.pytorch.org/whl/cpu 
+# Gunakan CPU torch untuk container APP karena GPU dipakai vLLM, 
+# kecuali Anda mau embedding di GPU juga, hapus --index-url
